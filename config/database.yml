@@ -85,5 +85,3 @@ test:
 production:
   <<: *default
   database: la_adventures_production
-  username: fpnhidekrrcylz
-  password: <%= ENV['LA_ADVENTURES_DATABASE_PASSWORD'] %>
